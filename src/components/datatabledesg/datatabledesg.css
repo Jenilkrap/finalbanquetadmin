@@ -1,0 +1,136 @@
+.datatable {
+  height: 600px;
+  padding: 20px;
+}
+
+.datatableTitle{
+  width: 100%;
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.datatableTitle .link{
+  text-decoration: none;
+  color: rgb(111, 173, 75);
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+.datatableTitle button {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fcfcfc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.datagrid {
+  height: 400px;
+}
+
+.cellAction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actionBtn {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.popups {
+  position: fixed;
+  top: 0;
+  left: 40%;
+  width: 30%;
+  height: 40%;
+  background-color: rgb(255, 253, 253);
+  box-shadow: 0 0 15px rgba(116, 119, 117, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popupInners {
+  background-color: rgb(255, 253, 253);
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.popupInners h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.popupInners label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.popupInners input {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.popupButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.popupButtons button {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  margin-right: 10px;
+}
+
+.addBtn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+
+
+
+
